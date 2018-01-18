@@ -274,13 +274,6 @@
     return true;
   };
 
-  document.addEventListener("DOMContentLoaded", function() {
-    objectFitPolyfill();
-  });
-  window.addEventListener("resize", function() {
-    objectFitPolyfill();
-  });
-
   window.objectFitPolyfill = objectFitPolyfill;
 
 })();
